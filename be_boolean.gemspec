@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.authors = ["Sebastian Porto"]
   s.date = "2014-08-14"
-  s.description = "TODO: longer description of your gem"
+  s.description = "Cast number or string to boolean"
   s.email = "sebasporto@gmail.com"
   s.extra_rdoc_files = [
     "LICENSE.txt"
@@ -25,6 +25,7 @@ Gem::Specification.new do |s|
     "Guardfile",
     "LICENSE.txt",
     "Rakefile",
+    "be_boolean.gemspec",
     "lib/be_boolean.rb",
     "readme.md",
     "spec/lib/be_boolean_spec.rb",
@@ -33,7 +34,7 @@ Gem::Specification.new do |s|
   s.homepage = "http://github.com/sporto/be_boolean"
   s.licenses = ["MIT"]
   s.rubygems_version = "2.2.2"
-  s.summary = "TODO: one-line summary of your gem"
+  s.summary = "Cast number or string to boolean"
 
   if s.respond_to? :specification_version then
     s.specification_version = 4
