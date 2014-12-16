@@ -16,6 +16,8 @@ Usage
   BeBoolean.get("N") # => false
   BeBoolean.get("f") # => false
   BeBoolean.get("F") # => false
+  BeBoolean.get("false") # => false
+  BeBoolean.get("FALSE") # => false
 
   BeBoolean.get(1) # => true
   BeBoolean.get("1") # => true
